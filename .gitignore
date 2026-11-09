@@ -1,0 +1,23 @@
+# Child profiles and sleep history stay on the parent's machine.
+/children/
+
+# Local development traces contain machine paths and candidate responses.
+/evals/nap-planner/evidence/
+/evals/nap-planner/runs/
+/evals/nap-planner/sandboxes/
+/evals/nap-planner/observe_agent.py
+/evals/nap-planner/replay_attacks.py
+/evals/nap-planner/verify_scenarios.py
+/evals/nap-planner/REVIEW.md
+/evals/nap-planner/REPORT.md
+/evals/nap-planner/CROSS_EXAMINE_LEDGER.md
+/evals/nap-planner/INTENT.md
+/evals/nap-planner/INTENT_AMENDMENT.md
+/evals/nap-planner/GENERATION.md
+/evals/nap-planner/config.json
+
+__pycache__/
+*.py[cod]
+.DS_Store
+.env
+.env.*
